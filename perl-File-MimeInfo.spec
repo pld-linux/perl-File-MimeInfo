@@ -16,6 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	79c8d21705ce9d86a415275b8b2e6c52
 URL:		http://search.cpan.org/dist/File-MimeInfo/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-File-BaseDir
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	shared-mime-info
 BuildArch:	noarch
