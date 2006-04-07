@@ -8,12 +8,12 @@
 Summary:	File::MimeInfo - use the freedesktop mimeinfo spec
 Summary(pl):	File::MimeInfo - u¿ywanie specyfikacji mimeinfo z freedesktop
 Name:		perl-File-MimeInfo
-Version:	0.12
+Version:	0.13
 Release:	0.1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f8fab90910d51f7804cc4e9cba615d86
+# Source0-md5:	f87b07e1608f4380bb3f53154ac671bb
 URL:		http://search.cpan.org/dist/File-MimeInfo/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-File-BaseDir
@@ -58,6 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/mimetype
+%attr(755,root,root) %{_bindir}/mimeopen
 %{perl_vendorlib}/File/*.pm
 %dir %{perl_vendorlib}/File/MimeInfo
 %{perl_vendorlib}/File/MimeInfo/*.pm
