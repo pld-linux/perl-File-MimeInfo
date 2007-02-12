@@ -6,7 +6,7 @@
 %define	pdir	File
 %define	pnam	MimeInfo
 Summary:	File::MimeInfo - use the freedesktop mimeinfo spec
-Summary(pl):	File::MimeInfo - u¿ywanie specyfikacji mimeinfo z freedesktop
+Summary(pl.UTF-8):   File::MimeInfo - uÅ¼ywanie specyfikacji mimeinfo z freedesktop
 Name:		perl-File-MimeInfo
 Version:	0.13
 Release:	0.1
@@ -29,11 +29,11 @@ specification for using the shared mime-info database. The package
 comes with a script called 'mimetype' that can be used as a file(1)
 work-alike.
 
-%description -l pl
-Ten modu³ mo¿e byæ u¿ywany do okreslenia typu MIME danego pliku; jest
-zamiennikiem File::MMagic próbuj±cym implementowaæ specyfikacjê
-freedesktop do u¿ywania wspó³dzielonej bazy danych mime-info. Ten
-pakiet zawiera skrypt mimetype, który mo¿e byæ u¿ywany jako
+%description -l pl.UTF-8
+Ten moduÅ‚ moÅ¼e byÄ‡ uÅ¼ywany do okreslenia typu MIME danego pliku; jest
+zamiennikiem File::MMagic prÃ³bujÄ…cym implementowaÄ‡ specyfikacjÄ™
+freedesktop do uÅ¼ywania wspÃ³Å‚dzielonej bazy danych mime-info. Ten
+pakiet zawiera skrypt mimetype, ktÃ³ry moÅ¼e byÄ‡ uÅ¼ywany jako
 odpowiednik file(1).
 
 %prep
