@@ -6,7 +6,7 @@
 %define	pdir	File
 %define	pnam	MimeInfo
 Summary:	File::MimeInfo - use the freedesktop mimeinfo spec
-Summary(pl.UTF-8):   File::MimeInfo - używanie specyfikacji mimeinfo z freedesktop
+Summary(pl.UTF-8):	File::MimeInfo - używanie specyfikacji mimeinfo z freedesktop
 Name:		perl-File-MimeInfo
 Version:	0.13
 Release:	0.1
